@@ -5,6 +5,8 @@ from user import User
 import random
 
 class Teacher(User):
+    knowledge = ['Sth']
 
     def teach(self):
-        pass
+       for i in self.knowledge:
+            return i
